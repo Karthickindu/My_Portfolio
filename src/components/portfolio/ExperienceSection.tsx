@@ -6,12 +6,12 @@ const experiences = [
     type: "work" as const,
     title: "Junior Software Engineer",
     company: "Orchestro AI",
-    period: "May 2025 – Present",
+    period: "May 2025 to Present",
     points: [
-      "Architected and delivered production-ready frontend modules for enterprise logistics platforms, serving clients across parcel shipping and supply chain verticals.",
-      "Built the DIM Optimizer interface — enabling real-time product-to-box matching and multi-carrier cost comparison, reducing manual shipping decisions by an estimated 40%.",
+      "Architected and delivered production ready frontend modules for enterprise logistics platforms, serving clients across parcel shipping and supply chain verticals.",
+      "Built the DIM Optimizer interface enabling real time product to box matching and multi carrier cost comparison, reducing manual shipping decisions by an estimated 40%.",
       "Engineered dynamic data transformation pipelines in the Refund Finder dashboard, surfacing actionable refund insights through interactive charts and tables.",
-      "Developed Parcel Intercept features for in-transit rerouting, improving operational flexibility and reducing failed delivery rates for enterprise shippers.",
+      "Developed Parcel Intercept features for in transit rerouting, improving operational flexibility and reducing failed delivery rates for enterprise shippers.",
     ],
   },
   {
