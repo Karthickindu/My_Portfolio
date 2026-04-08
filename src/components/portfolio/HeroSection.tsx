@@ -29,7 +29,7 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-[85vh] flex items-center justify-center pt-16"
+      className="relative min-h-[75vh] flex items-center justify-center pt-16"
     >
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p className="text-sm font-mono text-primary tracking-widest uppercase mb-4 animate-fade-up">
