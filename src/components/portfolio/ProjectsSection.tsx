@@ -76,7 +76,7 @@ const ProjectsSection = () => {
             Featured <span className="text-gradient">Projects</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mb-12">
-            A selection of projects I've built — from enterprise logistics platforms to consumer-facing applications.
+            A selection of projects I have built, from enterprise logistics platforms to consumer facing applications.
           </p>
         </div>
 

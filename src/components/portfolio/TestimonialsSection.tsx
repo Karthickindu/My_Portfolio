@@ -9,7 +9,7 @@ const testimonials = [
     company: "Orchestro AI",
   },
   {
-    quote: "What sets Karthick apart is his ownership mentality. He doesn't just build features — he understands the business impact and optimizes accordingly. A reliable team player.",
+    quote: "What sets Karthick apart is his ownership mentality. He does not just build features, he understands the business impact and optimizes accordingly. A reliable team player.",
     name: "Priya Nair",
     role: "Product Manager",
     company: "Orchestro AI",
