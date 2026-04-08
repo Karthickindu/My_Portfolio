@@ -46,7 +46,7 @@ const ProjectsSection = () => {
     <section id="projects" className="py-10">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8" ref={ref}>
         <div className={`transition-all duration-700 ${isVisible ? "animate-fade-up" : "opacity-0"}`}>
-          <h2 className="text-2xl sm:text-3xl font-bold mb-6">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-4">
             Featured <span className="text-gradient">Projects</span>
           </h2>
         </div>
