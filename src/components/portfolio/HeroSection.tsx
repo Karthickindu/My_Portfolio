@@ -1,4 +1,4 @@
-import { ArrowDown, ExternalLink, Mail } from "lucide-react";
+import { ArrowDown, ExternalLink } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
