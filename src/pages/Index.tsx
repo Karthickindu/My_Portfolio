@@ -5,10 +5,10 @@ import SkillsSection from "@/components/portfolio/SkillsSection";
 import ExperienceSection from "@/components/portfolio/ExperienceSection";
 import ProjectsSection from "@/components/portfolio/ProjectsSection";
 import CertificationsSection from "@/components/portfolio/CertificationsSection";
+import ContactSection from "@/components/portfolio/ContactSection";
 import Footer from "@/components/portfolio/Footer";
 import { useTheme } from "@/hooks/useTheme";
 
-// Portfolio page
 const Index = () => {
   const { isDark, toggle } = useTheme();
 
@@ -21,6 +21,7 @@ const Index = () => {
       <ExperienceSection />
       <ProjectsSection />
       <CertificationsSection />
+      <ContactSection />
       <Footer />
     </div>
   );

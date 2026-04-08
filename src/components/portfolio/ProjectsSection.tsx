@@ -43,38 +43,38 @@ const ProjectsSection = () => {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="py-16">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8" ref={ref}>
         <div className={`transition-all duration-700 ${isVisible ? "animate-fade-up" : "opacity-0"}`}>
-          <h2 className="text-2xl sm:text-3xl font-bold mb-8">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-6">
             Featured <span className="text-gradient">Projects</span>
           </h2>
         </div>
 
-        <div className="space-y-6">
+        <div className="grid sm:grid-cols-2 gap-4">
           {projects.map((project, idx) => (
             <div
               key={project.title}
-              className={`p-5 rounded-xl glass transition-all duration-500 hover:glow-primary ${
+              className={`p-5 rounded-xl glass transition-all duration-500 hover:glow-primary hover:-translate-y-1 ${
                 isVisible ? "animate-fade-up" : "opacity-0"
               }`}
               style={{ animationDelay: `${idx * 100}ms` }}
             >
               <div className="flex items-start justify-between mb-2">
-                <h3 className="text-lg font-semibold text-foreground">{project.title}</h3>
-                <div className="flex gap-2 shrink-0 ml-4">
+                <h3 className="text-base font-semibold text-foreground">{project.title}</h3>
+                <div className="flex gap-2 shrink-0 ml-3">
                   <a href={project.github} className="text-muted-foreground hover:text-primary transition-colors">
-                    <Github size={18} />
+                    <Github size={16} />
                   </a>
                   <a href={project.demo} className="text-muted-foreground hover:text-primary transition-colors">
-                    <ExternalLink size={18} />
+                    <ExternalLink size={16} />
                   </a>
                 </div>
               </div>
               <p className="text-sm text-muted-foreground mb-3 leading-relaxed">{project.description}</p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-1.5">
                 {project.tech.map((t) => (
-                  <span key={t} className="px-2.5 py-0.5 text-xs font-mono rounded-md bg-primary/10 text-primary">
+                  <span key={t} className="px-2 py-0.5 text-xs font-mono rounded-md bg-primary/10 text-primary">
                     {t}
                   </span>
                 ))}
