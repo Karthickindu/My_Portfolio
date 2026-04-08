@@ -8,6 +8,7 @@ import CertificationsSection from "@/components/portfolio/CertificationsSection"
 import Footer from "@/components/portfolio/Footer";
 import { useTheme } from "@/hooks/useTheme";
 
+// Portfolio page
 const Index = () => {
   const { isDark, toggle } = useTheme();
 
