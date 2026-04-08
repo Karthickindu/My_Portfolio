@@ -6,7 +6,6 @@ import ExperienceSection from "@/components/portfolio/ExperienceSection";
 import ProjectsSection from "@/components/portfolio/ProjectsSection";
 import CertificationsSection from "@/components/portfolio/CertificationsSection";
 import TestimonialsSection from "@/components/portfolio/TestimonialsSection";
-import ContactSection from "@/components/portfolio/ContactSection";
 import Footer from "@/components/portfolio/Footer";
 import { useTheme } from "@/hooks/useTheme";
 
@@ -23,7 +22,6 @@ const Index = () => {
       <ProjectsSection />
       <CertificationsSection />
       <TestimonialsSection />
-      <ContactSection />
       <Footer />
     </div>
   );

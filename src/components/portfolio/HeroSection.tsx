@@ -1,4 +1,4 @@
-import { ArrowDown, ExternalLink, Mail } from "lucide-react";
+import { ArrowDown, ExternalLink } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
@@ -44,13 +44,6 @@ const HeroSection = () => {
           >
             <ExternalLink size={18} />
             View Projects
-          </a>
-          <a
-            href="#contact"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg glass font-medium text-foreground hover:bg-secondary/80 transition-all duration-300 hover:scale-105"
-          >
-            <Mail size={18} />
-            Contact Me
           </a>
         </div>
       </div>

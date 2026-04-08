@@ -19,7 +19,7 @@ const projects = [
     title: "DIM Optimizer",
     tagline: "Multi-Carrier Shipping Cost Optimizer",
     problem: "Shippers struggled with selecting optimal box sizes for products, leading to inflated dimensional weight charges across multiple carriers.",
-    solution: "Developed an intuitive UI for product selection, box size comparison, and real-time cost optimization across carriers — streamlining the packaging decision process.",
+    solution: "Developed an intuitive UI for product selection, box size comparison, and real time cost optimization across carriers, streamlining the packaging decision process.",
     tech: ["React.js", "Chakra UI", "Redux Toolkit", "REST APIs"],
     impact: "Reduced manual shipping cost calculations by ~40%, enabling faster and more cost-effective packaging decisions.",
     github: "#",
@@ -43,7 +43,7 @@ const projects = [
     title: "Job Portal",
     tagline: "Modern Job Discovery Platform",
     problem: "Job seekers needed a streamlined platform to discover, filter, and apply to relevant opportunities without navigating cluttered interfaces.",
-    solution: "Developed a responsive job portal with advanced search, filtering, resume upload, and application tracking — delivering a clean, user-friendly experience.",
+    solution: "Developed a responsive job portal with advanced search, filtering, resume upload, and application tracking, delivering a clean, user friendly experience.",
     tech: ["React.js", "CSS Modules", "React Router"],
     impact: "Implemented intuitive search and filter functionality, significantly improving job discovery efficiency and user engagement.",
     github: "#",
@@ -76,7 +76,7 @@ const ProjectsSection = () => {
             Featured <span className="text-gradient">Projects</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mb-12">
-            A selection of projects I've built — from enterprise logistics platforms to consumer-facing applications.
+            A selection of projects I have built, from enterprise logistics platforms to consumer facing applications.
           </p>
         </div>
 

@@ -7,7 +7,6 @@ const navLinks = [
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
   { label: "Certifications", href: "#certifications" },
-  { label: "Contact", href: "#contact" },
 ];
 
 interface NavbarProps {
@@ -37,7 +36,7 @@ const Navbar = ({ isDark, toggleTheme }: NavbarProps) => {
             href="#hero"
             className="text-xl font-bold text-gradient"
           >
-            KR
+            Karthick R
           </a>
 
           <div className="hidden md:flex items-center gap-1">

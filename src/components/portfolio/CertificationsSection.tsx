@@ -56,7 +56,7 @@ const CertificationsSection = () => {
             <h3 className="text-lg font-semibold mb-6 text-foreground">Domain Expertise</h3>
             <div className="p-6 rounded-xl glass">
               <p className="text-muted-foreground mb-5 leading-relaxed">
-                Beyond technical skills, I bring domain-specific understanding that enables me to build solutions aligned with real business needs — not just code.
+                Beyond technical skills, I bring domain specific understanding that enables me to build solutions aligned with real business needs, not just code.
               </p>
               <ul className="space-y-3">
                 {domainKnowledge.map((domain) => (

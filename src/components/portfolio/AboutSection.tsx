@@ -41,13 +41,13 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div className={`space-y-5 transition-all duration-700 delay-200 ${isVisible ? "animate-slide-left" : "opacity-0"}`}>
             <p className="text-muted-foreground leading-relaxed text-lg">
-              I'm a frontend engineer with a passion for building interfaces that don't just look great — they perform. At <strong className="text-foreground">Orchestro AI</strong>, I've been instrumental in developing and shipping production-grade applications that optimize logistics operations for enterprise clients.
+              I am a frontend engineer with a passion for building interfaces that not only look great but also perform exceptionally well. At <strong className="text-foreground">Orchestro AI</strong>, I have been instrumental in developing and shipping production grade applications that optimize logistics operations for enterprise clients.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              My approach combines deep technical expertise in the React ecosystem with a keen eye for design fidelity. I specialize in transforming Figma mockups into pixel-perfect, accessible, and performant UIs — working closely with cross-functional teams to deliver features that directly impact business KPIs.
+              My approach combines deep technical expertise in the React ecosystem with a keen eye for design fidelity. I specialize in transforming Figma mockups into pixel perfect, accessible, and performant UIs, working closely with cross functional teams to deliver features that directly impact business KPIs.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Whether it's architecting scalable state management with Redux Toolkit, implementing complex data visualizations, or refactoring codebases for maintainability — I take ownership and deliver results.
+              From architecting scalable state management with Redux Toolkit to implementing complex data visualizations and refactoring codebases for maintainability, I take ownership and deliver results.
             </p>
           </div>
 
