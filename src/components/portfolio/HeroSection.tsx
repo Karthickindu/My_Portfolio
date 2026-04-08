@@ -50,19 +50,19 @@ const HeroSection = () => {
         </p>
         <div className="flex items-center justify-center gap-4 animate-fade-up delay-300">
           <a
-            href="#projects"
-            className="px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-all duration-300"
-          >
-            View Projects
-          </a>
-          <a
             href="https://drive.google.com/file/d/1EUlveJr5zfzyReHn8SwdzpdbDU6RypWz/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-medium hover:bg-secondary transition-all duration-300"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-all duration-300"
           >
             <FileText size={18} />
             View Resume
+          </a>
+          <a
+            href="#projects"
+            className="px-6 py-3 rounded-lg border border-border text-foreground font-medium hover:bg-secondary transition-all duration-300"
+          >
+            View Projects
           </a>
         </div>
       </div>
