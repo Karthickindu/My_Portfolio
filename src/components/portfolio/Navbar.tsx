@@ -6,7 +6,7 @@ const navLinks = [
   { label: "Skills", href: "#skills" },
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
-  { label: "Certifications", href: "#certifications" },
+  { label: "Contact", href: "#contact" },
 ];
 
 interface NavbarProps {
@@ -32,10 +32,7 @@ const Navbar = ({ isDark, toggleTheme }: NavbarProps) => {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <a
-            href="#hero"
-            className="text-xl font-bold text-gradient"
-          >
+          <a href="#hero" className="text-lg font-bold text-gradient">
             Karthick R
           </a>
 
