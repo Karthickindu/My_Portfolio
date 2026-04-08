@@ -28,9 +28,9 @@ const experiences = [
   },
   {
     type: "education" as const,
-    title: "B.Tech — Information Technology",
+    title: "B.Tech, Information Technology",
     company: "Government College of Engineering",
-    period: "2021 – 2025",
+    period: "2021 to 2025",
     points: [
       "Graduated with a CGPA of 8.18/10, demonstrating strong academic performance across core CS and IT disciplines.",
       "Developed multiple full-stack projects during coursework, building a strong foundation in software engineering principles.",
