@@ -1,7 +1,7 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const skills = [
-  "React.js", "JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3",
+  "React.js", "JavaScript", "TypeScript", "HTML5", "CSS3",
   "Tailwind CSS", "Chakra UI", "Redux Toolkit", "REST APIs",
   "Git", "Figma to Code", "Responsive Design", "Python", "SQL",
 ];

@@ -3,6 +3,13 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Job Portal",
+    description: "Job discovery platform with search, filtering, and application tracking.",
+    tech: ["React.js", "CSS Modules", "React Router"],
+    github: "#",
+    demo: "#",
+  },
+  {
     title: "Refund Finder",
     description: "Analytics dashboard that helps logistics companies identify and recover refunds from carrier billing errors.",
     tech: ["React.js", "Redux Toolkit", "Tailwind CSS", "Recharts"],
@@ -20,13 +27,6 @@ const projects = [
     title: "Parcel Intercept",
     description: "In-transit parcel rerouting system with real-time status tracking.",
     tech: ["React.js", "Tailwind CSS", "Redux Toolkit"],
-    github: "#",
-    demo: "#",
-  },
-  {
-    title: "Job Portal",
-    description: "Job discovery platform with search, filtering, and application tracking.",
-    tech: ["React.js", "CSS Modules", "React Router"],
     github: "#",
     demo: "#",
   },
