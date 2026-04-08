@@ -56,7 +56,7 @@ const HeroSection = () => {
             View Projects
           </a>
           <a
-            href="/KARTHICK_R.pdf"
+            href="https://drive.google.com/file/d/1EUlveJr5zfzyReHn8SwdzpdbDU6RypWz/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-medium hover:bg-secondary transition-all duration-300"
