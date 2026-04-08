@@ -43,7 +43,7 @@ const projects = [
     title: "Job Portal",
     tagline: "Modern Job Discovery Platform",
     problem: "Job seekers needed a streamlined platform to discover, filter, and apply to relevant opportunities without navigating cluttered interfaces.",
-    solution: "Developed a responsive job portal with advanced search, filtering, resume upload, and application tracking — delivering a clean, user-friendly experience.",
+    solution: "Developed a responsive job portal with advanced search, filtering, resume upload, and application tracking, delivering a clean, user friendly experience.",
     tech: ["React.js", "CSS Modules", "React Router"],
     impact: "Implemented intuitive search and filter functionality, significantly improving job discovery efficiency and user engagement.",
     github: "#",
