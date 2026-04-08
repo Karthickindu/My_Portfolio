@@ -1,51 +1,27 @@
-import { ArrowDown, ExternalLink } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
+import { ArrowDown } from "lucide-react";
 
 const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-[80vh] flex items-center justify-center"
     >
-      <div className="absolute inset-0">
-        <img
-          src={heroBg}
-          alt=""
-          className="w-full h-full object-cover"
-          width={1920}
-          height={1080}
-        />
-        <div className="absolute inset-0 bg-background/60 dark:bg-background/40" />
-      </div>
-
-      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="animate-fade-up">
-          <span className="inline-block px-4 py-1.5 rounded-full text-xs font-medium tracking-wider uppercase glass text-primary mb-6">
-            Frontend Engineer
-          </span>
-        </div>
-
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 animate-fade-up delay-100">
-          Building Scalable Solutions{" "}
-          <span className="text-gradient">with Precision</span>{" "}
-          & Performance
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-4 animate-fade-up">
+          Karthick R
         </h1>
-
-        <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-up delay-200 leading-relaxed">
-          I engineer high-performance user interfaces that drive business outcomes.
-          Specializing in React ecosystems, I transform complex requirements into
-          seamless digital experiences.
+        <p className="text-lg text-primary font-medium mb-6 animate-fade-up delay-100">
+          Frontend Engineer
         </p>
-
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up delay-300">
-          <a
-            href="#projects"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-all duration-300 glow-primary hover:scale-105"
-          >
-            <ExternalLink size={18} />
-            View Projects
-          </a>
-        </div>
+        <p className="text-muted-foreground max-w-xl mx-auto mb-10 animate-fade-up delay-200 leading-relaxed">
+          I build high-performance web applications with React. Currently at Orchestro AI, delivering enterprise logistics solutions.
+        </p>
+        <a
+          href="#projects"
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-all duration-300 animate-fade-up delay-300"
+        >
+          View Projects
+        </a>
       </div>
 
       <a
