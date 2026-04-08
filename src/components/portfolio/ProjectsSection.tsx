@@ -19,7 +19,7 @@ const projects = [
     title: "DIM Optimizer",
     tagline: "Multi-Carrier Shipping Cost Optimizer",
     problem: "Shippers struggled with selecting optimal box sizes for products, leading to inflated dimensional weight charges across multiple carriers.",
-    solution: "Developed an intuitive UI for product selection, box size comparison, and real-time cost optimization across carriers — streamlining the packaging decision process.",
+    solution: "Developed an intuitive UI for product selection, box size comparison, and real time cost optimization across carriers, streamlining the packaging decision process.",
     tech: ["React.js", "Chakra UI", "Redux Toolkit", "REST APIs"],
     impact: "Reduced manual shipping cost calculations by ~40%, enabling faster and more cost-effective packaging decisions.",
     github: "#",
