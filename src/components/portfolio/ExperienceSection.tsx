@@ -18,12 +18,12 @@ const experiences = [
     type: "work" as const,
     title: "Frontend Developer Intern",
     company: "Orchestro AI",
-    period: "Dec 2024 – May 2025",
+    period: "Dec 2024 to May 2025",
     points: [
       "Integrated complex RESTful APIs using Redux Toolkit, ensuring seamless data synchronization and optimized state management across multiple application modules.",
-      "Translated Figma design specifications into pixel-perfect, responsive interfaces using React.js, Chakra UI, and Tailwind CSS.",
+      "Translated Figma design specifications into pixel perfect, responsive interfaces using React.js, Chakra UI, and Tailwind CSS.",
       "Refactored legacy components for reusability, reducing codebase redundancy by ~30% and improving developer velocity across the frontend team.",
-      "Collaborated in Agile sprints with design, product, and backend teams to deliver features on schedule with zero critical post-release bugs.",
+      "Collaborated in Agile sprints with design, product, and backend teams to deliver features on schedule with zero critical post release bugs.",
     ],
   },
   {
