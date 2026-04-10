@@ -35,7 +35,7 @@ const ContactSection = () => {
 
           <div className="flex gap-3">
             <a
-              href="https://github.com/karthick"
+              href="https://github.com/Karthickindu"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
@@ -44,7 +44,7 @@ const ContactSection = () => {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/karthick"
+              href="https://www.linkedin.com/in/karthick-r-700743281"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
